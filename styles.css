@@ -8,15 +8,18 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 4pc 10pc;
+    padding: 0.25pc 20pc;
     align-items: center;
-    padding-bottom: 52px;
+    padding-bottom: 5pc;
+    gap: 20px;
+
 }
 
 .header-logo {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -24,12 +27,17 @@ header {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    padding-right: 20px;
+}
+
+.hero{
+    width: 25pc;
 }
 
 .placeholder-image {
     background-color: grey;
-    height: 250px;
-    width: 500px;
+    height: 300px;
+    width: 700px;
     color: #E5E7EB;
     display: flex;
     align-items: center;
@@ -46,6 +54,7 @@ header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding-top: 2pc;
 }
 
 button {
@@ -58,8 +67,8 @@ button {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 15px;
     border: 5px solid #3882f6
 }
@@ -67,7 +76,8 @@ img {
 .img-line {
     display: flex;
     justify-content:space-around;
-    padding: 16px 100px;
+    padding: 10pc 30pc;
+    padding-top: 2pc;
 }
 
 .text {
@@ -87,4 +97,47 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.review {
+    background-color: #E5E7EB;
+    padding: 5pc 40pc;
+}
+
+.quote {
+    size: 32px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.customer {
+    text-align: right;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.action{
+    display: flex;
+    background-color: #3882f6;
+    margin: 5pc 30pc;
+    border-radius: 0.5pc;
+    padding: 3pc 7pc;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-left {
+    size: 18px;
+    color: #E5E7EB;    
+}
+
+.action-call {
+    font-weight: 900;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 2pc ;
 }
